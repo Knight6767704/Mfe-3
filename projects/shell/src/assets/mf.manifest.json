@@ -1,0 +1,5 @@
+{
+	"mfe1": "http://localhost:2000/remoteEntry.js",
+	"mfe2": "http://localhost:3000/remoteEntry.js"
+
+}
