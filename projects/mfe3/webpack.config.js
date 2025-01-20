@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'mfe3',
 
   exposes: {
-    './Module': './projects/mfe3/src/app/navbar/navbar.module.ts',
+    './NavModule': './projects/mfe3/src/app/navbar/navbar.module.ts',
   },
 
   shared: {
