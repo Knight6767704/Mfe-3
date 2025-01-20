@@ -13,15 +13,15 @@ export const APP_ROUTES: Routes = [
         exposedModule: './Module',
       }).then((m) => m.NavbarModule),
   },
-  // {
-  //   path: 'mfe2',
-  //   loadChildren: () =>
-  //     loadRemoteModule({
-  //       type: 'manifest',
-  //       remoteName: 'mfe2',
-  //       exposedModule: './Module',
-  //     }).then((m) => m.AdminModule),
-  // },
+  {
+    path: 'mfe3',
+    loadChildren: () =>
+      loadRemoteModule({
+        type: 'manifest',
+        remoteName: 'mfe3',
+        exposedModule: './Module',
+      }).then((m) => m.NavbarModule),
+  },
 
 
  
